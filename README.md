@@ -1,9 +1,10 @@
-# nasm-mode
+# avra-mode
 
-`nasm-mode` is a major mode for editing [NASM][nasm] x86 assembly
+`avra-mode` is a major mode for editing [AVRA][avra] AVR assembly
 programs. It includes syntax highlighting, automatic indentation, and
-imenu integration. Unlike Emacs' generic `asm-mode`, it understands
-NASM-specific syntax. Requires Emacs 24.3 or higher.
+imenu integration. Requires Emacs 24.3 or higher.
+
+this project is forked from [nasm-mode][nasm-mode-gh]
 
 The instruction and keyword lists are from NASM 2.12.01.
 
@@ -15,4 +16,5 @@ The instruction and keyword lists are from NASM 2.12.01.
   NASM syntax.
 
 
-[nasm]: http://www.nasm.us/
+[avra]: https://github.com/Ro5bert/avra
+[nasm-mode-gh]: https://github.com/skeeto/nasm-mode
