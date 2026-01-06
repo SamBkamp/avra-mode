@@ -2,10 +2,10 @@
 .SUFFIXES: .el .elc
 EMACS = emacs
 
-compile: nasm-mode.elc
+compile: avra-mode.elc
 
 clean:
-	rm -f nasm-mode.elc
+	rm -f avra-mode.elc
 
 .el.elc:
 	$(EMACS) -Q -batch -f batch-byte-compile $<
